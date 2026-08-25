@@ -10,6 +10,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
 
+
 management:
   info:
     env.enabled: true
@@ -22,9 +23,3 @@ management:
       show-details: always
 info:
   app.name: AlgaShop Service Registry
-
-logging:
-  level:
-    com.netflix.discovery.DiscoveryClient: OFF
-    com.netflix.discovery: OFF
-    com.netflix.eureka: OFF
